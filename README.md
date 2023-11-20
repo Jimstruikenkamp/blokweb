@@ -42,7 +42,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   #### Screenshot(s) van de tweede pagina (small screen):
   hier de naam van de pagina  
-  <img src="readme-images/budweiserabout.png" width="375px" alt="omschrijving van de pagina">
+  <img src="readme-images/budweiserbeers.png" width="375px" alt="omschrijving van de pagina">
  
 </details>
 
@@ -54,7 +54,21 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na test in 2<sup>e</sup> werkgroep</summary>
 
   ### Bevindingen
-  Lijst met je bevindingen die in de test naar voren kwamen:
+  Test toegankelijkheid:
+  In werkgroep 2 hebben we een toegankelijkheidstest gedaan, dit hebben we gedaan aan de hand van een ballon en een beperkte bril.
+
+  Concentratietest(Budweiser):
+  De ballon moet nabootsen hoe het is om met een concentratiestoornis de site te bezoeken. Ik gaf Niels de taak om een muts toe te voegen aan de winkelwagen, dit is normaal gesproken een makkelijke taak. Niels had zonder de ballon in een tijd van 15 seconden de muts in de winkelwagen gedaan, met de ballon was zijn concentratie een stuk minder en deed hij er 2x zo lang over. Zijn conclusie over de concentratiestoornis is dat het lastig is om te focussen en het fijn is als er weinig tekst en afleiding is, zodat hij snel zijn doel kan bereiken.
+
+  Concentratietest(gucci):
+  Niels heeft de site van Gucci gekozen, deze site hebben we ook getest op de toegankelijkheid aan de hand van een concentratietest.
+  Ik voer deze test uit en Niels gaf mij de taak om een jas te vinden en deze in mijn winkelwagen te plaatsen. Deze taak is normaalgesproken makkelijk uit te voeren, niks bleek minder waar met de ballon. Ik deed er namelijk 1 minuut en 18 seconden over met een concentratiestoornis en 25 seconden zonder. Doordat ik me veel bezig hield om de ballon hoog te houden vond ik het lastig om op de knoppen te klikken, deze waren vaak erg klein. 
+
+  Zichtbelemmeringstest:
+  Na de concentratietest hebben we een bril opgezet die de linker kant van ons zicht belemmert. We hadden eigenlijk dezelfde conclussie, het beperkte ons niet echt in het gebruik van de app, we kregen wel beide vrij snel hoofpijn. Het focuspunt ligt ergens anders, dus het is handig dat alles op de site in een goed contrast staat en alles duidelijk is aangegeven.
+
+  Voorleesfunctie:
+  De website heb ik getest om te kijken of het geschikt is voor de voorleesfunctie. Veel zag er goed uit, ik kon redelijk gemakkelijk door de website heen met mijn toetsenbord. Er zijn wel een paar dingen die niet helemaal goed gaan, bijvoorbeeld dat elke keer als je de homepage opent er iets word voorgelezen wat nergens staat. Ik denk persoonlijk dat er iets in de slider staat wat er nooit is uitgehaald. Daarnaast zijn de social media icons omschreven als “links” en bijvoorbeeld niet “instagram icoon link”.
 
 </details>
 
@@ -66,18 +80,18 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na afloop 3<sup>e</sup> werkgroep</summary>
 
   ### de hele pagina: 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
+  <img src="readme-images/breakdownhome.png" width="375px" alt="breakdown van de hele pagina">
 
   ### dynamisch deel (bijv menu): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
+  <img src="readme-images/breakdown2.png" width="375px" alt="breakdown van een dynamisch deel">
 
   ### wellicht nog een dynamisch deel (bijv filter): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
+  <img src="readme-images/breakdown3.png" width="375px" alt="breakdown van nog een dynamisch deel">
 
 </details>
 
 
-
+ 
 
 
 ## Voortgang 1 (week 2)
