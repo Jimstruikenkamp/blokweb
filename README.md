@@ -37,12 +37,12 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Je opdracht:
   https://us.budweiser.com/   
   #### Screenshot(s) van de eerste pagina (small screen): 
-  hier de naam van de pagina  
-  <img src="readme-images/budweiserhome.png" width="375px" alt="omschrijving van de pagina">
+  Home budweiser
+  <img src="readme-images/budweiserhome.PNG" width="375px" alt="omschrijving van de pagina">
 
   #### Screenshot(s) van de tweede pagina (small screen):
-  hier de naam van de pagina  
-  <img src="readme-images/budweiserbeers.png" width="375px" alt="omschrijving van de pagina">
+  Budweiser our beer
+  <img src="readme-images/budweiserbeers.PNG" width="375px" alt="omschrijving van de pagina">
  
 </details>
 
