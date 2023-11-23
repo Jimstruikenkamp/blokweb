@@ -5,6 +5,10 @@
   box-sizing:border-box;  
 }
 
+header {
+	background-color: #cf0a2c;
+}
+
 
 
 
@@ -16,7 +20,7 @@
 :root {
 	/* startje */
 	--color-text:#111;
-	--color-background:#eee;
+	--color-background:#fff;
 }
 
 
@@ -28,4 +32,45 @@
 /****************/
 
 /* jouw code */
+
+header {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	height: 6em;
+}
+
+
+header section {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	width: 2em; 
+	gap: 0.5em;
+	color: white;
+	font-family: 'Roboto Condensed', sans-serif;}
+
+header section:first-of-type img {
+	width: 1.5em;
+	height: 1.5em;
+}
+
+header section:first-of-type a {
+	display: flex;
+	align-items: center;
+	color: inherit;
+	font: inherit;
+	text-decoration: none;
+	gap: 0.5em;
+}
+
+
+
+header section:nth-of-type(2) img {
+	width: 7em;
+}
+
+header section:nth-of-type(3) img {
+	width: 1.5em;
+}
 
