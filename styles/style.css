@@ -1,12 +1,10 @@
 /**************/
 /* CSS REMEDY */
 /**************/
-*, *::after, *::before {
-  box-sizing:border-box;  
-}
-
-header {
-	background-color: #cf0a2c;
+*,
+*::after,
+*::before {
+	box-sizing: border-box;
 }
 
 
@@ -19,8 +17,8 @@ header {
 /*********************/
 :root {
 	/* startje */
-	--color-text:#111;
-	--color-background:#fff;
+	--color-text: #111;
+	--color-background: #fff;
 }
 
 
@@ -33,29 +31,39 @@ header {
 
 /* jouw code */
 
+body {
+	margin: 0;
+}
+
+/*hier begint de codee van de header*/
+
 header {
+	z-index: 1;
+	background-color: #cf0a2c;
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
 	height: 6em;
+	width: 100%;
+	position: sticky;
+	top: 0;
 }
 
-
-header section {
-	display: flex;
-	justify-content: space-around;
-	align-items: center;
-	width: 2em; 
-	gap: 0.5em;
-	color: white;
-	font-family: 'Roboto Condensed', sans-serif;}
-
-header section:first-of-type img {
+header section img {
 	width: 1.5em;
 	height: 1.5em;
 }
 
-header section:first-of-type a {
+header section a {
+	color: white;
+	font-family: 'Roboto Condensed', sans-serif;
+	text-decoration: none;
+	display: flex;
+	align-items: center;
+	gap: 0.3em;
+}
+
+header section {
 	display: flex;
 	align-items: center;
 	color: inherit;
@@ -65,12 +73,1088 @@ header section:first-of-type a {
 }
 
 
-
-header section:nth-of-type(2) img {
-	width: 7em;
+header h1 img {
+	width: 3.5em;
 }
 
-header section:nth-of-type(3) img {
-	width: 1.5em;
+header h2 {
+	font-family: 'Roboto Condensed', sans-serif;
+	color: white;
+	text-transform: uppercase;
+	display: none;
 }
 
+header section a h2 {
+	display: block;
+}
+
+
+/*hier begint de codee van de hamburger menu*/
+
+header nav:first-of-type {
+	display: flex;
+	align-items: center;
+	gap: 0.5em;
+}
+
+header nav:first-of-type img {
+	width: 2em;
+}
+
+
+#hamburgerMenu {
+	height: 0;
+	width: 100%;
+	position: fixed;
+	z-index: -2;
+	top: 0;
+	left: 0;
+	background-color: rgb(255, 255, 255);
+	overflow-x: hidden;
+	transition: 0.5s;
+}
+
+#hamburgerMenu nav {
+	position: relative;
+	top: 16%;
+	text-align: left;
+	margin: 1em;
+}
+
+#hamburgerMenu a {
+	text-decoration: none;
+	font-size: 1.3em;
+	color: #000000;
+	margin: 0.7em;
+	display: block;
+	transition: 0.3s;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: 500;
+}
+
+
+
+#hamburgerMenu section a{
+	font-size: 1em;
+}
+
+#hamburgerMenu > a {
+	position: absolute;
+	top: 3em;
+	left: 2.5em;
+	font-size: 3em;
+	font-weight: 500;
+	margin: 0em;
+}
+
+
+
+
+/*hier begint de codee van de sliders*/
+
+main ul:first-of-type {
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+	display: flex;
+	overflow-x: auto;
+}
+
+main ul:first-of-type li {
+	flex: 0 0 90%;
+}
+
+
+main ul li section {
+	height: 44.438em;
+	padding: 2.5em 2em;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+main ul li:first-of-type section {
+	background-image: url("https://cdn.builder.io/api/v1/image/assets%2F2c2f396d58f344ecaa467593ed0ec411%2Fdba1f8a823954a8290718ab4710c099e");
+	background-position: center;
+}
+
+main ul li:nth-of-type(2) section {
+	background-image: url("https://cdn.builder.io/api/v1/image/assets%2F2c2f396d58f344ecaa467593ed0ec411%2Fcdfd5f16a42c4a6d8eea16b3d42ce6c8");
+	background-position: center;
+
+}
+
+main ul li:last-of-type section {
+	background-image: url("https://cdn.builder.io/api/v1/image/assets%2F2c2f396d58f344ecaa467593ed0ec411%2F58a58f99721b450c89ea8629e2c36022");
+	background-position: center;
+}
+
+main ul li section h2 {
+	color: white;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: 700;
+	text-transform: uppercase;
+	font-size: 3.5em;
+	line-height: 1em;
+	max-width: 75vw;
+	margin: 0 0 0.5em;
+}
+
+main ul li section p {
+	color: white;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: 400;
+	max-width: 75vw;
+	margin: 0 0 2em;
+	text-shadow: #000 1px 0 10px;
+}
+
+main ul li section a {
+	width: 14.625em;
+	height: 2.75em;
+	font-size: 1em;
+	background-color: #cf0a2c;
+	color: #fff;
+	text-decoration: none;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: 700;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 6em 0 0;
+}
+
+
+main ul li section a:hover {
+	background-color: white;
+	color: #cf0a2c;
+	border: 0.1em solid #cf0a2c;
+}
+
+
+
+
+
+
+
+/*hier begint de codee van history of Budweiser*/
+
+ul+section img {
+	width: 100vw;
+}
+
+
+ul+section article {
+	padding: 2.5em 2em;
+	display: grid;
+	align-content: center;
+}
+
+
+ul+section article h3 {
+	color: #12284C;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: 700;
+	text-transform: uppercase;
+	font-size: 3em;
+	line-height: 1em;
+	max-width: 75vw;
+	margin: 0 0 0.5em;
+}
+
+ul+section article p {
+	color: #cf0a2c;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: 400;
+	max-width: 75vw;
+	margin: 0 0 2em;
+	font-size: 1.3em;
+}
+
+
+
+ul+section article a {
+	width: 14.625em;
+	height: 2.75em;
+	font-size: 1em;
+	background-color: #cf0a2c;
+	color: #fff;
+	text-decoration: none;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: 700;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+ul+section article a:nth-of-type(2) {
+	background-color: white;
+	color: #cf0a2c;
+	border: 0.1em solid #cf0a2c;
+	text-decoration: none;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: 700;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 1em;
+}
+
+ul+section article a:hover {
+	opacity: 80%;
+}
+
+
+
+
+
+
+
+/*hier begint de codee van budweiser select*/
+
+
+main>section:nth-of-type(2) {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-image: url(https://cdn.builder.io/api/v1/image/assets%2F2c2f396d58f344ecaa467593ed0ec411%2F99fbd5650f1b4b6da70bf47a0ce521fd);
+	background-size: cover;
+	background-position: center;
+}
+
+main>section:nth-of-type(2) img {
+	width: 20vw;
+	margin: 2em 0em 2em 0em;
+}
+
+main>section:nth-of-type(2) article {
+	display: flex;
+	text-align: center;
+	flex-direction: column;
+	align-items: center;
+}
+
+main>section:nth-of-type(2) article h3 {
+	color: #fff;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: 700;
+	text-transform: uppercase;
+	font-size: 3em;
+	line-height: 1em;
+	max-width: 75vw;
+	margin: 0 0 0.5em;
+}
+
+main>section:nth-of-type(2) article p {
+	color: #fff;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: 400;
+	max-width: 75vw;
+	margin: 0 0 2em;
+	font-size: 1.3em;
+}
+
+
+main>section:nth-of-type(2) article a {
+	width: 14.625em;
+	height: 2.75em;
+	font-size: 1em;
+	background-color: #cf0a2c;
+	color: #fff;
+	text-decoration: none;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: 700;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+main>section:nth-of-type(2) article a:nth-of-type(2) {
+	background-color: white;
+	color: #cf0a2c;
+	border: 0.1em solid #cf0a2c;
+	text-decoration: none;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: 700;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 1em;
+	margin-bottom: 2em;
+}
+
+main>section:nth-of-type(2) article a:hover {
+	opacity: 90%;
+}
+
+
+
+
+
+
+
+
+/*Hier begint de code voor de afbeeldingen carrousel*/
+
+main ul:nth-of-type(2) {
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+	display: flex;
+	overflow-x: auto;
+}
+
+main ul:nth-of-type(2) li:hover {
+	opacity: 80%;
+}
+
+
+main ul:nth-of-type(2) li a {
+	display: block;
+	height: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	aspect-ratio: 1/1;
+	block-size: 12em;
+}
+
+
+main ul:nth-of-type(2) li:first-of-type a {
+	background-image: url(https://cdn.builder.io/api/v1/image/assets%2F2c2f396d58f344ecaa467593ed0ec411%2F5c53587a30b64558982d0a83818fa478);
+}
+
+main ul:nth-of-type(2) li:nth-of-type(2) a {
+	background-image: url(https://cdn.builder.io/api/v1/image/assets%2F2c2f396d58f344ecaa467593ed0ec411%2Fc19d2e6fd4aa4e8f8fdcce0e72897e26);
+}
+
+main ul:nth-of-type(2) li:nth-of-type(3) a {
+	background-image: url(https://cdn.builder.io/api/v1/image/assets%2F2c2f396d58f344ecaa467593ed0ec411%2Facb4c6826e9b4c709b54004cb7c1b534);
+}
+
+main ul:nth-of-type(2) li:nth-of-type(4) a {
+	background-image: url(https://cdn.builder.io/api/v1/image/assets%2F2c2f396d58f344ecaa467593ed0ec411%2F77c56d2439de4454925c45cbae12a036);
+}
+
+main ul:nth-of-type(2) li:nth-of-type(5) a {
+	background-image: url(https://cdn.builder.io/api/v1/image/assets%2F2c2f396d58f344ecaa467593ed0ec411%2F2c018f8b7fc34233aad3e387775eb2cc);
+}
+
+main ul:nth-of-type(2) li:nth-of-type(6) a {
+	background-image: url(https://cdn.builder.io/api/v1/image/assets%2F2c2f396d58f344ecaa467593ed0ec411%2F9026206a57d8435d8bdc1d7a9559259f);
+}
+
+
+
+
+
+
+
+
+
+/*Hier begint de code voor footer*/
+
+footer {
+	background-color: #12284C;
+	padding: 2em 0em 2em 0em;
+	row-gap: 2em;
+	display: flex;
+	flex-direction: column;
+
+}
+
+
+/*footer section*/
+
+footer section {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	row-gap: 2em;
+}
+
+
+footer section a img {
+	width: 50vw;
+}
+
+footer section a img:hover {
+	opacity: 80%;
+}
+
+/*footer socials*/
+
+footer section ul {
+	display: flex;
+	list-style: none;
+	justify-content: center;
+	align-items: center;
+	gap: 2em;
+	margin: 0;
+	padding: 0;
+}
+
+footer section ul li:first-of-type {
+	color: white;
+	width: 3vw;
+}
+
+footer section ul li {
+	color: white;
+	width: 7vw;
+}
+
+footer section ul li:hover {
+	opacity: 80%;
+	cursor: pointer;
+}
+
+
+/*footer stay connected*/
+
+footer>div {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+footer>div p {
+	color: #fff;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: 400;
+	max-width: 75vw;
+	font-size: 1.3em;
+	margin: 1em 0em 1em 0em;
+}
+
+footer>div a {
+	background-color: white;
+	color: #cf0a2c;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: 700;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-decoration: none;
+	width: 40vw;
+	height: 5vh;
+}
+
+footer>div a:hover {
+	opacity: 90%;
+}
+
+
+/*footer ul 2 en 3*/
+
+
+footer>ul {
+	list-style: none;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 0;
+	padding: 0;
+	row-gap: 0.5em;
+}
+
+footer>ul h4 {
+	color: #fff;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: 700;
+	font-size: 1.5em;
+	max-width: 75vw;
+	margin: 0;
+	padding: 0;
+}
+
+footer>ul a {
+	color: #fff;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: 300;
+	max-width: 75vw;
+	font-size: 1.2em;
+	text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*Hier begint de code voor de @media*/
+
+
+
+
+@media screen and (min-width: 800px) {
+
+
+	/*Headerd V */
+	header {
+		flex-direction: row-reverse;
+	}
+
+	header h2 {
+		display: block;
+	}
+
+
+
+
+
+
+	/*slider afbeelding V */
+
+	main ul li section {
+		height: 41em;
+		padding: 8.2em 7em;
+	}
+
+	main ul li p {
+		font-size: xx-large;
+	}
+
+	main ul li:nth-of-type(2) section {
+		background-image: url("https://cdn.builder.io/api/v1/image/assets%2F2c2f396d58f344ecaa467593ed0ec411%2F891aa6466eac4787b78092f16386196c");
+	}
+
+	main ul li:last-of-type section {
+		background-image: url("https://cdn.builder.io/api/v1/image/assets%2F2c2f396d58f344ecaa467593ed0ec411%2F0c87f7b5736e483da53ec7d57ef01aa4");
+	}
+
+
+
+	/*Bud history V */
+
+	ul+section {
+		display: flex;
+		flex-direction: row-reverse;
+	}
+
+	ul+section img {
+		max-width: 48vw;
+		max-height: 70vh;
+	}
+
+	ul+section article div {
+		display: flex;
+		align-items: center;
+		gap: 2em;
+	}
+
+	ul+section article a:nth-of-type(2) {
+		margin: 0;
+	}
+
+
+	/*Bud select V */
+
+	main>section:nth-of-type(2) {
+		flex-direction: row;
+		text-align: left;
+		background-position: unset;
+	}
+
+	main>section:nth-of-type(2) img {
+		margin: 4em 2em 4em 8em;
+	}
+
+	main>section:nth-of-type(2) article {
+		text-align: left;
+		align-items: start;
+		padding: 2.5em 2em;
+	}
+
+	main>section:nth-of-type(2) article div {
+		display: flex;
+		align-items: center;
+		gap: 2em;
+	}
+
+	main>section:nth-of-type(2) article a:nth-of-type(2) {
+		margin: 0;
+	}
+
+
+	/*afbeeldingen carrousel V */
+
+	main ul:nth-of-type(2) li a {
+		block-size: 18em;
+	}
+
+
+	/*footer V */
+
+	footer {
+		display: flex;
+		flex-direction: row;
+		padding: 6em 0em 4em 0em;
+		justify-content: space-evenly;
+	}
+
+
+	/*footer section 1 V */
+
+	footer section {
+		row-gap: 1em;
+	}
+
+	footer section a img {
+		width: 20vw;
+	}
+
+	footer section ul {
+		gap: 2.5em;
+	}
+
+	footer section ul li:first-of-type {
+		width: 0.8vw;
+	}
+
+	footer section ul li {
+		width: 1.8vw;
+	}
+
+
+
+	/*footer section 2 V */
+
+
+	footer>div a {
+		width: 15vw;
+	}
+
+	footer>ul {
+		align-items: start;
+		justify-content: start;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*************tweede pagina*************/
+/*************tweede pagina*************/
+/*************tweede pagina*************/
+/*************tweede pagina*************/
+/*************tweede pagina*************/
+
+
+
+/*Bud select V */
+
+.pagina2 main section:first-of-type {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-image: url("https://cdn.builder.io/api/v1/image/assets%2F2c2f396d58f344ecaa467593ed0ec411%2Fcba933b8b0474a4d9c5940e93b401cd8");
+	background-size: cover;
+	background-position: center;
+}
+
+.pagina2 main section:first-of-type img {
+	width: 20vw;
+	margin: 2em 0em 2em 0em;
+}
+
+.pagina2 main section:first-of-type article {
+	display: flex;
+	text-align: center;
+	flex-direction: column;
+	align-items: center;
+}
+
+.pagina2 main section:first-of-type article h3 {
+	color: #fff;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: 700;
+	text-transform: uppercase;
+	font-size: 3em;
+	line-height: 1em;
+	margin: 0 0 0.5em;
+}
+
+.pagina2 main section:first-of-type article p {
+	color: #fff;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: 400;
+	max-width: 75vw;
+	margin: 0 0 2em;
+	font-size: 1.3em;
+}
+
+.pagina2 main section:first-of-type article h4 {
+	color: #fff;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: 400;
+	font-size: 1.5em;
+	line-height: 1em;
+	max-width: 75vw;
+	margin: 0;
+}
+
+
+.pagina2 main section:first-of-type article img {
+	margin: 1em 0em 1em 0em;
+	width: 40vw;
+}
+
+
+
+.pagina2 main section:first-of-type article a {
+	width: 14.625em;
+	height: 2.75em;
+	font-size: 1em;
+	background-color: white;
+	color: #cf0a2c;
+	text-decoration: none;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: 700;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-transform: uppercase;
+	margin: 0em 0em 1em 0em;
+}
+
+.pagina2 main section:first-of-type article a:hover {
+	opacity: 90%;
+}
+
+
+
+
+
+/*ingredienten V */
+
+.pagina2 main h2 {
+	color: #cf0a2c;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: 700;
+	text-transform: uppercase;
+	font-size: 3em;
+	max-width: 75vw;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: left;
+}
+
+.pagina2 section:nth-of-type(2) {
+	background-image: none;
+	display: flex;
+	flex-direction: column;
+	align-items: start;
+}
+
+.pagina2 section:nth-of-type(2) article {
+	align-items: start;
+	margin-left: auto;
+	margin-right: auto;
+	width: 75vw;
+}
+
+.pagina2 section:nth-of-type(2) article img {
+	width: 10vw;
+	margin: 0;
+}
+
+.pagina2 section:nth-of-type(2) article div {
+	display: flex;
+	gap: 1em;
+	align-items: baseline;
+}
+
+.pagina2 section:nth-of-type(2) article h3 {
+	color: #cf0a2c;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: 700;
+	text-transform: uppercase;
+	font-size: 2em;
+	line-height: 1em;
+	max-width: 75vw;
+	margin: 0;
+}
+
+.pagina2 section:nth-of-type(2) article p {
+	color: #12284C;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: 400;
+	max-width: 75vw;
+	font-size: 1.3em;
+	text-align: left;
+}
+
+
+
+/*video V */
+
+.pagina2 figure {
+	display: flex;
+	justify-content: center;
+	margin: 0;
+	padding: 5vw;
+	background-image: url(https://cdn.builder.io/api/v1/image/assets%2F2c2f396d58f344ecaa467593ed0ec411%2Fe273286ff48646a29529cb1989802cf4?width=2000);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.pagina2 figure video {
+	width: 70vw;
+}
+
+
+
+
+/*budweiser quiz V */
+
+.pagina2 section:nth-of-type(3) {
+	background-image: url(https://cdn.builder.io/api/v1/image/assets%2F2c2f396d58f344ecaa467593ed0ec411%2F3efb103ab64d42f4877b8ca35e5d8a37?width=2000);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	row-gap: 3vh;
+	padding: 5vh;
+	background-repeat: no-repeat;
+	background-size: cover;
+	align-items: center;
+}
+
+.pagina2 section:nth-of-type(3) h3 {
+	color: #fff;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: 700;
+	text-transform: uppercase;
+	font-size: 2em;
+	line-height: 1em;
+	max-width: 75vw;
+	margin: 0;
+	text-align: center;
+}
+
+.pagina2 section:nth-of-type(3) p {
+	color: #fff;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: 400;
+	max-width: 75vw;
+	font-size: 1.3em;
+	margin: 0;
+}
+
+.pagina2 section:nth-of-type(3) a {
+	width: 14.625em;
+	height: 2.75em;
+	font-size: 1em;
+	background-color: white;
+	color: #cf0a2c;
+	text-decoration: none;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: 700;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-transform: uppercase;
+}
+
+.pagina2 section:nth-of-type(3) a:hover {
+	opacity: 80%;
+}
+
+
+
+
+
+
+/*explore other beers V */
+
+.pagina2 main h2 {
+	font-size: 2.5em;
+}
+
+.pagina2 main section:last-of-type {
+	background-image: none;
+	padding: 5vw;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.pagina2 main section:last-of-type ul {
+	display: flex;
+	flex-direction: column;
+	width: 75vw;
+	align-items: center;
+	row-gap: 1em;
+	overflow: unset;
+}
+
+.pagina2 main section:last-of-type li {
+	display: flex;
+	flex-direction: column;
+	width: 75vw;
+	align-items: center;
+}
+
+.pagina2 main section:last-of-type img {
+	margin: 0;
+	width: 50vw;
+}
+
+.pagina2 main section:last-of-type h3 {
+	color: #cf0a2c;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: 700;
+	text-transform: uppercase;
+	font-size: 2em;
+	line-height: 1em;
+	margin: 0;
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 800px) {
+
+	/*bud select*/
+
+	.pagina2 main section:first-of-type {
+		flex-direction: row;
+		text-align: left;
+		background-position: unset;
+	}
+
+	.pagina2 main section:first-of-type img {
+		margin: 4em 2em 4em 8em;
+	}
+
+	.pagina2 main section:first-of-type article {
+		text-align: left;
+		align-items: start;
+		padding: 2.5em 2em;
+	}
+
+	.pagina2 main section:first-of-type article img {
+		width: 20vw;
+	}
+
+
+
+	.pagina2 main section:first-of-type article a {
+		margin: 0;
+	}
+
+
+	/*ingredienten*/
+
+	.pagina2 section:nth-of-type(2) {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		flex-direction: unset;
+		margin-left: 7vw;
+		margin-right: 7vw;
+	}
+
+	.pagina2 section:nth-of-type(2) article {
+		width: 90%;
+		padding: 0;
+	}
+
+
+	.pagina2 section:nth-of-type(2) article img {
+		width: 3vw;
+	}
+
+	.pagina2 section:nth-of-type(2) article p {
+		width: 35vw;
+	}
+
+	.pagina2 main h2 {
+		margin-left: 9vw;
+	}
+
+
+
+	/*explore other buds*/
+
+	.pagina2 main section:last-of-type h2 {
+		text-align: center;
+		font-size: 3em;
+		margin: 0;
+	}
+	
+	.pagina2 main section:last-of-type {
+		background-image: none;
+		padding: 5vw;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		row-gap: 3vw;
+	}
+	
+	.pagina2 main section:last-of-type ul {
+		display: flex;
+		flex-direction: row;
+		width: 100%;
+		justify-content: center;
+		align-items: start;
+	}
+
+	.pagina2 main section:last-of-type li {
+		flex: unset;
+	}
+	
+	.pagina2 main section:last-of-type img {
+		margin: 0;
+		width: 20vw;
+	}
+	
+
+}
