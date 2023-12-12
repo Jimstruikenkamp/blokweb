@@ -22,7 +22,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Blauw
 
   #### Je focus:
-  Surface plane
+  Responsive
 </details>
 
 
@@ -42,7 +42,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   #### Screenshot(s) van de tweede pagina (small screen):
   Budweiser our beer
-  <img src="readme-images/budweiserbeers.PNG" width="375px" alt="omschrijving van de pagina">
+  <img src="readme-images/budselect.png" width="375px" alt="omschrijving van de pagina">
  
 </details>
 
@@ -100,27 +100,23 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 1<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  Ik heb erg veel moeite met het oppakken van het coderen, de laatste keer dat ik met html en css heb gewerkt is inmiddels een goed jaar geleden.
+  Momenteel heb ik de header gemaakt, ik vraag me af of dit op de juiste manier is gedaan. 
 
 
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+  Jim: 
+  - Ik ben benieuwd of de code die in mijn header staat goed is.
+  - Wil weten hoe de slider het best te maken is.
 
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
-
+  - Ik moet eerst aan de slag met mijn html, zorgen dat dat compleet op orde is voordat ik ga stylen.
+  - Header komt wanneer ik mijn html op orde heb, vervolgens de sliders stylen en dan in elkaar zetten.
 </details>
 
 
@@ -133,27 +129,25 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 2<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  Ik heb een mijn homepage voor nu af in html-css en ik ben al goed opweg met mijn tweede pagina. Door te coderen is mijn kennis wat betreft code weer opgefrist, ik heb dit weekend daarom ook aardig wat stappen weten te maken. In het vorige gesprek werd er tegen mij gezegd dat ik moest beginnen met mijn volledige html, dat had ik gedaan voor de homepage en doordat ik de basis had was het stijlen best wel te doen.
 
 
   ### Agenda voor meeting
   samen met je groepje opstellen
+    
+    Jim: 
+  - Ik wil weten of de code die ik tot nu toe heb er netjes uitziet.
+  - Ik wil laten zien wat ik tot nu toe heb gemaakt.
+  - Algemene vragen wat betreft mijn code.
 
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+
 
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-- ...
-
+  - Goed opweg
+  - Ik kan mijn slider zo laten dat is prima
 </details>
 
 
@@ -167,6 +161,22 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
+  - Veel koppelingen worden benoemd als koppelingen, maar hebben geen inhoud. (inmiddels opgelost door een aria-label toe te voegen)
+  - De text op de website is Engels, maar de alt teksten zijn Nederlands. (De alt tekst heb ik Engels gemaakt)
+  - Er zijn wat heading levels geskipt, zo begint een text opeens met een h3 ipv h2. (De heading levels heb ik op logische volgorde gezet.)
+  - Niet alle afbeeldingen hebben een alt tekst. (Ik heb inmiddels alle images een alt tekst gegeven)
+  - In de sliders kan ik de text niet heel goed lezen. (Ik heb de tekst een duidelijke shadow gegeven, zodat het beter leesbaar is.)
+  - De social media iconen evenals de blikken bij "explore other buds" zijn nog geen link. (inmiddels heb ik van beide een link gemaakt.)
+  - Tabben door de pagina gaat goed, de focus state gaat goed alle linkjes af.
+  - Met tabben gaat hij ook langs het hamburgermenu, ook als deze niet is aangeklikt.
+  - De screenreader leest bij de header iets van "banner, banner" op en bij de footer "informatie over inhoud, informatie over inhoud.
+
+  <img src="images/IMG_3322.jpg" width="375px" alt="bummer">
+  <img src="readme-images/IMG_3323.jpg" width="375px" alt="bummer">
+  <img src="readme-images/IMG_3324.jpg" width="375px" alt="bummer">
+  <img src="readme-images/IMG_3325.jpg" width="375px" alt="bummer">
+  <img src="readme-images/IMG_3326.jpg" width="375px" alt="bummer">
+
 
 </details>
 
@@ -180,26 +190,23 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 3<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  Ik heb zowel de html als css van beide pagina's gemaakt, ik heb in de afgelopen week de tweede pagina evenals de footer afgemaakt. Het enige wat ik nog moet doen is de puntjes op de i zetten van mijn code en het hamburgermenu maken. Ik heb momenteel een hamburgermenu gemaakt maar ik ben bang dat dit niet helemaal goed is aangezien ik het ook niet voor elkaar krijg. 
 
 
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+  Jim: 
+  - Ik wil weten op welke manier ik mijn hamburgermenu kan verbeteren.
+  - Ik heb algemene vragen over wat ik in het eindgesprek kan verwachten en of ik qua code nog iets mis.
 
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  - Ik kan het maken van een hamburgermenu vinden in een van de opdrachten, dus dat ga ik doen.
+  - Ik weet nu wat ik moet doen om de puntjes op de i te zetten, om mijn code netjes te maken.
+  - Code valideren
 
 </details>
 
@@ -213,7 +220,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor eindgesprek</summary>
 
   ### Je uitkomst - karakteristiek screenshots:
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="uitomst opdracht 1">
+  <img src="readme-images/eigenhomepage.png" width="375px" alt="uitomst opdracht 1">
+  <img src="readme-images/eigenselectbeerpage.png" width="375px" alt="uitomst opdracht 1">
 
 
   ### Dit ging goed/Heb ik geleerd: 
@@ -237,12 +245,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 <details open>
   <summary>continu bijhouden terwijl je werkt</summary>
 
-  Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg). 
-  Nb. ChatGpT en andere AI horen er ook bij.
-  Nb. Vermeld de bronnen ook in je code.
 
-  1. bron 1
-  2. bron 2
-  3. ...
+  1. Icons komen van https://iconsvg.xyz/
+  2. Dit is de code zodat de video niet automatisch afspeeld. https://www.w3schools.com/html/html5_video.asp
+  3. De code van het hamburgermenu komt uit de opdracht van front end.
+  4. Dit is zodat mijn slider een carrousel is https://developer.mozilla.org/en-US/docs/Web/CSS/overflow-x
 
 </details>
