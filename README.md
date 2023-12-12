@@ -70,6 +70,23 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Voorleesfunctie:
   De website heb ik getest om te kijken of het geschikt is voor de voorleesfunctie. Veel zag er goed uit, ik kon redelijk gemakkelijk door de website heen met mijn toetsenbord. Er zijn wel een paar dingen die niet helemaal goed gaan, bijvoorbeeld dat elke keer als je de homepage opent er iets word voorgelezen wat nergens staat. Ik denk persoonlijk dat er iets in de slider staat wat er nooit is uitgehaald. Daarnaast zijn de social media icons omschreven als “links” en bijvoorbeeld niet “instagram icoon link”.
 
+  Overige toegankelijkheid:
+  - Het is wel heel goed dat na de eerste tab je een heel toegankelijkheidsmenu kan openen, dat maakt de website toegankelijk voor meerdere beperkingen.
+  - Veel koppelingen hebben geen inhoud, wanneer je door de pagina screenread weet je niet waar je heen moet.
+  - Bij de slides geeft de screenreader aan "1 of 6 slides koppeling" meer inhoud was beter geweest.
+  - De pagina's glitchen als je ze responsive maakt.
+  - In het vervolg zegt elke link "koppeling" zelfs de social media links, beter als ze bijvoorbeeld zeggen "link naar instagram"
+
+
+  
+  <img src="readme-images/IMG_3322.jpg" width="375px" alt="bummer">
+  <img src="readme-images/IMG_3323.jpg" width="375px" alt="bummer">
+  <img src="readme-images/IMG_3324.jpg" width="375px" alt="bummer">
+  <img src="readme-images/IMG_3325.jpg" width="375px" alt="bummer">
+  <img src="readme-images/IMG_3326.jpg" width="375px" alt="bummer">
+
+  
+
 </details>
 
 
@@ -87,6 +104,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### wellicht nog een dynamisch deel (bijv filter): 
   <img src="readme-images/breakdown3.png" width="375px" alt="breakdown van nog een dynamisch deel">
+  
 
 </details>
 
@@ -171,7 +189,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   - Met tabben gaat hij ook langs het hamburgermenu, ook als deze niet is aangeklikt.
   - De screenreader leest bij de header iets van "banner, banner" op en bij de footer "informatie over inhoud, informatie over inhoud.
 
-  <img src="images/IMG_3322.jpg" width="375px" alt="bummer">
+  <img src="readme-images/IMG_3322.jpg" width="375px" alt="bummer">
   <img src="readme-images/IMG_3323.jpg" width="375px" alt="bummer">
   <img src="readme-images/IMG_3324.jpg" width="375px" alt="bummer">
   <img src="readme-images/IMG_3325.jpg" width="375px" alt="bummer">
@@ -225,15 +243,16 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 
   ### Dit ging goed/Heb ik geleerd: 
-  Korte omschrijving met plaatjes
+  Wat goed ging was het responsive maken van mijn website, ik werkte voor het eerst met @media dat ging gelijk goed en daar heb ik veel van geleerd.
+  Daarnaast heb ik voor het eerst een hamburgermenu gemaakt, ik heb daar wel veel moeite mee gehad, maar nadat het javascript gedeelte werkte was het alleen nog maar een kwestie van stijlen. Ik begon met dit vak op de blauwe piste, maar ik durf met zekerheid te zeggen dat ik nu hoog op de rode piste sta.
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
+  <img src="readme-images/responsive.png" width="375px" alt="top">
 
 
   ### Dit was lastig/Is niet gelukt:
-  Korte omschrijving met plaatjes
+  Wat niet is gelukt is het toevoegen van buttons om de slider interactief te maken. Nadat ik in een gesprek met Vasilis te horen kreeg dat wat ik nu heb voldoende is heb ik het opgegeven en ben derest af gaan maken. Anders was ik met dit onderdeel te veel tijd kwijt geweest.
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
+  <img src="readme-images/interactief.png" width="375px" alt="bummer">
 </details>
 
 
